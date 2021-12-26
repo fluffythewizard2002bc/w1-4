@@ -4,7 +4,7 @@ import '../../style/GameBoard.css';
 
 function GameBoard({ like, dislike, nextItem, isEnd }) {
   const handleClick = (type) => {
-    if (isEnd) return;
+    if (isEnd) return "end";
     type === 'no' ? dislike() : like();
     nextItem();
   };
