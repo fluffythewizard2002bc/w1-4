@@ -1,0 +1,9 @@
+.board-buttom {
+    height: 15vh;
+    /* background: red; */
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 0.5rem solid #ec40d5;
+}
