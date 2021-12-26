@@ -1,8 +1,8 @@
 import React from "react";
-import { leaders,red,blue,white } from "./assets/misc";
-import DisplayItem from "./components/DisplayItem/DisplayItem";
-import Player from "./components/Player/Player";
-import GameBoard from "./components/GameBoard/GameBoard";
+import { leaders,red,blue,white } from "../../assets/Misc";
+import DisplayItem from "../DisplayItem/DisplayItem";
+import Player from "../Player/Player";
+import GameBoard from "../GameBoard/GameBoard";
 
 class App extends React.Component {
   state = {

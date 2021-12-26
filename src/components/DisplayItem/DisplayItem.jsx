@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../style/DisplayItem.css';
-import { leaders } from '../../assets/misc';
+import { leaders } from '../../assets/Misc';
 
 function DisplayItem({ currentItem }) {
   return (
