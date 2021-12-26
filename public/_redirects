@@ -1,4 +1,0 @@
-npm run build
-CI = npm run build
-CI = next build
-/* /index.html 200
